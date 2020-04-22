@@ -3,10 +3,10 @@ ob_start();
 session_start();
 
 //database credentials
-define('DBHOST','localhost');
-define('DBUSER','root');
-define('DBPASS','');
-define('DBNAME','daveismyname');
+define('DBHOST','un0jueuv2mam78uv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
+define('DBUSER','l39777vsffqz6wn4');
+define('DBPASS','v8wdwlz6fiue908m');
+define('DBNAME','vb4h93lrzqo2ljar');
 
 $db = new PDO("mysql:host=".DBHOST.";dbname=".DBNAME, DBUSER, DBPASS);
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
